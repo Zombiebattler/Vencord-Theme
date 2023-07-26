@@ -1,21 +1,55 @@
 /**
- * @name Dark Matter
- * @author Tropical#8908, Hammock#3110
- * @version 3.0.0
- * @description A cold, dark & frosty theme.
- * @source https://github.com/DiscordStyles/DarkMatter/
+ * @name Hard
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
 */
 
-@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
-/* Variables */
 :root {
-    --avatar-size: 32px;
-    --background-image: url('https://i.kym-cdn.com/photos/images/newsfeed/002/347/436/640.jpg');
-    --home-image: url('https://steamuserimages-a.akamaihd.net/ugc/1772722157370737851/107E806AE65FE7D0434FE05E341DA65F0F50A276/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
-    --background-solid: #161921;
-    --background-solid-dark: #101218;
-    --background-solid-darker: #101218;
-    --accent: 37, 172, 232;
-    --accent-alt: 29, 101, 134;
+  --background-image: url('https://i.imgur.com/ewUV6w4.jpg');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: url('https://i.redd.it/doyfoj858tza1.jpg');
+  --popout-image-blur: 0px;
+  --popout-image-size: cover;
+  --popout-image-position: 1;
+  --overlay-image: url('https://i.redd.it/y0iwd3jjhgl81.jpg');
+  --overlay-image-blur: 0px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.redd.it/5w32udgxkqdb1.jpg');
+  --home-button-size: contain;
+  --home-button-position: center;
+  --serverlist-brightness: 0.4;
+  --left-brightness: 0.4;
+  --middle-brightness: 0.4;
+  --right-brightness: 0;
+  --overlay-brightness: 0.6;
+  --gradient-primary: 126,9,9;
+  --gradient-secondary: 6,24,128;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 326deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
 }
+
+/* Any custom CSS below here */
+
+
+
